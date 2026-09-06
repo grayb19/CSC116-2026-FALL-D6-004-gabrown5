@@ -18,8 +18,8 @@ public class SpeedingTicket {
          //checking input from user for final determination
          if (driverspeed > limit + 5) {
             System.out.println("Ticket Issued.");
-         } else {
+         } else { //else
             System.out.println("No Ticket.");
          }  
-    }
-}
+    } //main method
+} //class
